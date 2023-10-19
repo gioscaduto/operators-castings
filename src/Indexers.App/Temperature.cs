@@ -24,17 +24,17 @@
                 switch (month) 
                 {
                     case "january": return temperatures[0];
-                    case "february": return temperatures[0];
-                    case "march": return temperatures[0];
-                    case "april": return temperatures[0];
-                    case "may": return temperatures[0];
-                    case "june": return temperatures[0];
-                    case "july": return temperatures[0];
-                    case "august": return temperatures[0];
-                    case "september": return temperatures[0];
-                    case "october": return temperatures[0];
-                    case "november": return temperatures[0];
-                    case "december": return temperatures[0];
+                    case "february": return temperatures[1];
+                    case "march": return temperatures[2];
+                    case "april": return temperatures[3];
+                    case "may": return temperatures[4];
+                    case "june": return temperatures[5];
+                    case "july": return temperatures[6];
+                    case "august": return temperatures[7];
+                    case "september": return temperatures[8];
+                    case "october": return temperatures[9];
+                    case "november": return temperatures[10];
+                    case "december": return temperatures[11];
                     default: return -1;
                 }
             }
